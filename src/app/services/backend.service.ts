@@ -19,7 +19,7 @@ export interface ApiResponse {
     providedIn: 'root'
 })
 export class BackendService {
-    private baseUrl = "http://localhost:3000"; 
+    private baseUrl = "http://localhost:8080"; 
 
     constructor(private http: HttpClient) {}
 

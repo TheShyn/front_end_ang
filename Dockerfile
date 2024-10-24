@@ -15,4 +15,4 @@ FROM nginx:alpine
 
 COPY --from=build /app/dist/frontend-prj/browser /usr/share/nginx/html
 
-EXPOSE 8080
+EXPOSE 80 
